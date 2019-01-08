@@ -1,6 +1,16 @@
 module.exports = {
-    title: 'GitLab ❤️ VuePress',
-    description: 'Vue-powered static site generator running on GitLab Pages',
+    title: "Wonjin's blog",
+    description: '안녕하세요!',
+    themeConfig: {
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Blog', link: '/blog/' }
+        ],
+        sidebar: [
+            '/',
+            '/blog/'
+        ]
+    },
     base: '/',
     dest: 'public'
 }
